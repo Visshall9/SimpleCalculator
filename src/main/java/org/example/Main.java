@@ -42,7 +42,7 @@ public class Main {
                     break;
                 case 3:
                     logger.info("START OP: Mul");
-                    System.out.println("--------Result is--------\n" +
+                    System.out.println("-------- Result is --------\n" +
                             op1 + " * " + op2 + " = " + mul(op1, op2));
                     logger.info("END OP: Mul");
                     break;
