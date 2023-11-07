@@ -30,7 +30,7 @@ public class Main {
             switch (option) {
                 case 1:
                     logger.info("START OP: Add");
-                    System.out.println("--------Result is--------\n" +
+                    System.out.println("-------- Result is --------\n" +
                             op1 + " + " + op2 + " = " + add(op1, op2));
                     logger.info("END OP: Add");
                     break;
