@@ -36,7 +36,7 @@ public class Main {
                     break;
                 case 2:
                     logger.info("START OP: Sub");
-                    System.out.println("--------Result is--------\n" +
+                    System.out.println("-------- Result is --------\n" +
                             op1 + " - " + op2 + " = " + sub(op1, op2));
                     logger.info("END OP: Sub");
                     break;
