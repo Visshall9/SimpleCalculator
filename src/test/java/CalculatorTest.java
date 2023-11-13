@@ -9,6 +9,7 @@ public class CalculatorTest {
     public void setUp() {
         calculator = new Main();
     }
+
     @Test
     public void test_add() {
         int a = 10;
