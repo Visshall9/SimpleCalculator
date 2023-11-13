@@ -2,6 +2,7 @@ import org.example.Main;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
 public class CalculatorTest {
     private Main calculator;
     @Before
@@ -30,7 +31,7 @@ public class CalculatorTest {
     @Test
     public void test_mul() {
         int a = 10;
-        int aa = 2
+        int aa = 2;
         int expectedResult = 20;
         int result = calculator.mul(a,aa);
         Assert.assertEquals(expectedResult, result);
@@ -39,8 +40,8 @@ public class CalculatorTest {
     @Test
     public void test_per() {
         int a = 10;
-        int b =4
-        int expectedResult = 2
+        int b =4;
+        int expectedResult = 2;
         int result = calculator.per(a,b);
         Assert.assertEquals(expectedResult, result);
     }
