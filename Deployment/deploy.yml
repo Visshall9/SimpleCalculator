@@ -7,4 +7,4 @@
     - name: Pull image
       shell: docker pull visshall9/simplecalculator:latest
     - name: Running container
-      shell: docker run -it -d --name calculator visshall9/simplecalculator
+      shell: docker create -it --name calculator visshall9/simplecalculator
