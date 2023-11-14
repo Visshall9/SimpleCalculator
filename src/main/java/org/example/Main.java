@@ -18,7 +18,7 @@ public class Main {
             System.out.println("1. Add");
             System.out.println("2. Subtract");
             System.out.println("3. Multiply");
-            System.out.println("4. Percentile");
+            System.out.println("4. Division");
             System.out.println("5. Exit\n");
             System.out.print("Enter your choice(number): \n");
             op = reader.nextInt();
@@ -44,7 +44,7 @@ public class Main {
                         subt(num,exp);
                         break;
 
-                    case 3: // Muktiply
+                    case 3: // Multiply
                         System.out.println("Multiply two numbers!!\n");
                         System.out.print("Enter number1: \n");
                         num = reader.nextInt();
@@ -54,13 +54,13 @@ public class Main {
                         break;
 
 
-                    case 4: // Percentile
-                        System.out.println("Percentile two numbers!!\n");
+                    case 4: // Division
+                        System.out.println("Divide two numbers!!\n");
                         System.out.print("Enter number1: \n");
                         num = reader.nextInt();
                         System.out.print("Enter number2: \n");
                         exp = reader.nextInt();
-                        per(num,exp);
+                        div(num,exp);
                         break;
 
                     default:
@@ -90,10 +90,10 @@ public class Main {
         logger.info("Executing multiplication operation for "+num+" and "+exp+". Result: "+c+"\n");
         return c;
     }
-    public static int per(int num, int exp){
-        int c = num%exp;
+    public static int div(int num, int exp){
+        int c = num/exp;
         System.out.println("\nThe Result is "+c+"\n");
-        logger.info("Executing percentile operation for "+num+" and "+exp+". Result: "+c+"\n");
+        logger.info("Executing division operation for "+num+" and "+exp+". Result: "+c+"\n");
         return c;
     }
 }

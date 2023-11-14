@@ -6,3 +6,43 @@
 
 2023-11-13 14:38:13.374 [main] INFO  org.example.Main - Executing percentile operation for 10 and 4. Result: 2
 
+2023-11-14 17:23:57.900 [main] INFO  org.example.Main - Executing subtraction operation for 30 and 5. Result: 25
+
+2023-11-14 17:23:57.919 [main] INFO  org.example.Main - Executing addition operation for 40 and 50. Result: 90
+
+2023-11-14 17:23:57.921 [main] INFO  org.example.Main - Executing multiplication operation for 10 and 20. Result: 200
+
+2023-11-14 17:23:57.922 [main] INFO  org.example.Main - Executing percentile operation for 9 and 4. Result: 1
+
+2023-11-14 17:25:06.511 [main] INFO  org.example.Main - Executing subtraction operation for 30 and 5. Result: 25
+
+2023-11-14 17:25:06.532 [main] INFO  org.example.Main - Executing addition operation for 40 and 50. Result: 90
+
+2023-11-14 17:25:06.533 [main] INFO  org.example.Main - Executing multiplication operation for 10 and 20. Result: 200
+
+2023-11-14 17:25:06.534 [main] INFO  org.example.Main - Executing percentile operation for 9 and 4. Result: 1
+
+2023-11-14 17:28:13.839 [main] INFO  org.example.Main - Executing subtraction operation for 30 and 5. Result: 25
+
+2023-11-14 17:28:13.867 [main] INFO  org.example.Main - Executing addition operation for 40 and 50. Result: 90
+
+2023-11-14 17:28:13.869 [main] INFO  org.example.Main - Executing multiplication operation for 10 and 20. Result: 200
+
+2023-11-14 17:28:13.870 [main] INFO  org.example.Main - Executing percentile operation for 9 and 4. Result: 1
+
+2023-11-14 17:28:21.124 [main] INFO  org.example.Main - Executing subtraction operation for 30 and 5. Result: 25
+
+2023-11-14 17:28:21.145 [main] INFO  org.example.Main - Executing addition operation for 40 and 50. Result: 90
+
+2023-11-14 17:28:21.146 [main] INFO  org.example.Main - Executing multiplication operation for 10 and 20. Result: 200
+
+2023-11-14 17:28:21.148 [main] INFO  org.example.Main - Executing percentile operation for 9 and 4. Result: 1
+
+2023-11-14 17:28:40.587 [main] INFO  org.example.Main - Executing subtraction operation for 30 and 5. Result: 25
+
+2023-11-14 17:28:40.607 [main] INFO  org.example.Main - Executing addition operation for 40 and 50. Result: 90
+
+2023-11-14 17:28:40.608 [main] INFO  org.example.Main - Executing multiplication operation for 10 and 20. Result: 200
+
+2023-11-14 17:28:40.610 [main] INFO  org.example.Main - Executing percentile operation for 9 and 4. Result: 1
+
